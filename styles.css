@@ -15,7 +15,7 @@ body {
   background: #f44336; /* vermelho levemente puxado p/ korean style */
 }
 
-.site-header .logo { height: 50px; }
+.site-header .logo { height: 250px; }
 
 .site-header nav ul {
   list-style: none;
