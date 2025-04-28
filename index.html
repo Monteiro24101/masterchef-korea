@@ -1,5 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head> … </head>
-<body> … </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Master Chef Korea</title>
+
+  <!-- Fonte coreana gratuita -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Seu CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <img src="assets/logo.png" alt="Logo Master Chef Korea" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#receitas">Receitas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Bem-vindos ao Master Chef Korea</h1>
+      <p>Sabores autênticos da Coreia para sua cozinha!</p>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>
+        Nosso grupo explorou pratos tradicionais coreanos, desde bibimbap até
+        tteokbokki. Aqui você encontra passo-a-passo, curiosidades históricas
+        e vídeos.
+      </p>
+    </section>
+
+    <section id="receitas">
+      <h2>Receitas em Destaque</h2>
+      <div class="cards">
+        <!-- Exemplo de card de receita -->
+        <article class="card">
+          <img src="assets/imagens/bibimbap.jpg" alt="Bibimbap" />
+          <h3>Bibimbap</h3>
+          <p>Arroz misturado com legumes, carne e ovo frito por cima.</p>
+        </article>
+        <!-- repita para outras receitas -->
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@masterchefkorea.edu</p>
+    <p>Telefone: (11) 9XXXX-XXXX</p>
+  </footer>
+</body>
 </html>
