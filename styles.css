@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background: #f44336; /* vermelho levemente puxado p/ korean style */
+  background: #ae3810; /* vermelho levemente puxado p/ korean style */
 }
 
 .site-header .logo { height: 100px; }
