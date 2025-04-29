@@ -6,16 +6,26 @@ body {
   line-height: 1.6;
   color: #eed186;
 }
-
-.site-header {
+.site-title {
+  font-size: 2rem;        /* experimente valores entre 1.5rem e 3rem */
+  margin-left: 1rem;      /* afasta um pouco da logo */
+  z-index: 1;             /* garante que fique acima de outros elementos */
+  position: relative;     /* necessário para o z-index funcionar */
+  color: #eed186;         /* cor do título (por exemplo) */
+}
+  .site-header {
+  align-items: center;    /* já alinha verticalmente no centro */
+  gap: 1rem;              /* espaçamento igual entre logo e título */
+}    
+.site-header {  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background: #ae3810; /* vermelho levemente puxado p/ korean style */
+  background: #ae3810; /* cor do fundo */
 }
 
-.site-header .logo { height: 100px; }
+.site-header .logo { height: 100px; } /* icone */
 
 .site-header nav ul {
   list-style: none;
