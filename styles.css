@@ -43,12 +43,12 @@ body {
   padding: 4rem 1rem;
   text-align: center;
   background: url('assets/imagens/padrao-korean.jpg') no-repeat center/cover;
-  color: #fff;
+  color: #3b2914;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 1.5rem;
   padding: 2rem 1rem;
 }
